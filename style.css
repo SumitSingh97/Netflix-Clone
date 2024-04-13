@@ -195,3 +195,93 @@ nav{
     z-index: -1;
     top: -10px;
 }
+
+/* -------------------- FAQ -------------------- */
+.faq{
+    padding: 10px 12%;
+    text-align: center;
+}
+
+.faq h2{
+    margin-top: 70px;
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: 900;
+    min-width: 880px;
+}
+
+.question{
+    margin: 60px auto;
+    width: 100%;
+    max-width: 880px;
+}
+
+.question li{
+    list-style: none;
+    width: 100%;
+    padding: 5px;
+}
+
+.question li label{
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    font-size: 25px;
+    font-weight: 400;
+    background: #303030;
+    margin-bottom: 2px;
+    cursor: pointer;
+    position: relative;
+    transition: 0.2s;
+}
+
+.question li label:hover{
+    background: rgb(66, 66, 66);
+}
+
+label::after{
+    content: '+';
+    font-size: 60px;
+    font-weight: 100;
+    position: absolute;
+    right: 20px;
+    transition: transform 0.5s;
+}
+
+input[type="radio"]{
+    display: none;
+}
+
+.question .answer{
+    background: #303030;
+    text-align: left;
+    padding: 0 30px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s, padding 0.5s;
+}
+
+.question li .answer p{
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.question input[type="radio"]:checked + label +.answer{
+    max-height: 600px;
+    padding: 30px 30px;
+}
+
+.question input[type="radio"]:checked + label::after{
+    transform: rotate(135deg);
+}
+
+.faq small{
+    margin: 20px 0;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.faq .email-signup{
+    max-width: 600px;
+    margin: 20px auto 60px;
+}

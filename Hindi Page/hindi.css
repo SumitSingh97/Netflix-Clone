@@ -9,6 +9,9 @@ body{
     background: black;
     color: white;
 }
+body::-webkit-scrollbar{
+    display: none;
+}
 
 hr{
     height: 7px;

@@ -1,440 +1,440 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: "Roboto", sans-serif;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
 
-body{
-    background: black;
-    color: white;
+body {
+  background: black;
+  color: white;
 }
-body::-webkit-scrollbar{
-    display: none;
+body::-webkit-scrollbar {
+  display: none;
 }
 
-hr{
-    height: 7px;
-    background-color: grey;
-    border: none;
+hr {
+  height: 7px;
+  background-color: grey;
+  border: none;
 }
 
 /* -------------------- Header/Main-Page -------------------- */
-.header{
-    width: 100%;
-    height: 100svh;
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(Resources/Main\ Banner.jpg);
-    background-size: cover;
-    background-position: center center;
-    padding: 10px 8%;
-    position: relative;
+.header {
+  width: 100%;
+  height: 100svh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(Resources/Main\ Banner.jpg);
+  background-size: cover;
+  background-position: center center;
+  padding: 10px 8%;
+  position: relative;
 }
 
 /* Navigation Bar */
-nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px 0;
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
 }
 
-.nav-logo{
-    position: relative;
-    width: 150px;
-    cursor: pointer;
-    transition: 0.3s;
+.nav-logo {
+  position: relative;
+  width: 150px;
+  cursor: pointer;
+  transition: 0.3s;
 }
-.nav-logo:hover{
-    width: 160px;
-    transform: translate(-5px);
+.nav-logo:hover {
+  width: 160px;
+  transform: translate(-5px);
 }
 
-.nav-button button{
-    border: 0;
-    outline: 0;
-    background: #db0001;
-    color: white;
-    padding: 7px 20px;
-    font-size: 12px;
-    border-radius: 4px;
-    margin-left: 10px;
-    cursor: pointer;
+.nav-button button {
+  border: 0;
+  outline: 0;
+  background: #db0001;
+  color: white;
+  padding: 7px 20px;
+  font-size: 12px;
+  border-radius: 4px;
+  margin-left: 10px;
+  cursor: pointer;
 }
 
 /* Main Content */
-.main-content{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    text-align: center;
-    margin-top: 100px;
+.main-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  margin-top: 100px;
 }
 
-.main-content h1{
-    font-size: 50px;
-    line-height: 60px;
-    font-weight: 900;
-    min-width: 880px;
+.main-content h1 {
+  font-size: 50px;
+  line-height: 60px;
+  font-weight: 900;
+  min-width: 880px;
 }
 
-.main-content h3{
-    margin: 20px 0;
-    font-size: 25px;
-    font-weight: 400;
+.main-content h3 {
+  margin: 20px 0;
+  font-size: 25px;
+  font-weight: 400;
 }
 
-.main-content p{
-    margin: 20px 0;
-    font-size: 18px;
-    font-weight: 400;
+.main-content p {
+  margin: 20px 0;
+  font-size: 18px;
+  font-weight: 400;
 }
 
-.email-signup{
-    background: white;
-    border-radius: 4px;
-    display: flex;
-    align-items: center;
-    overflow: hidden;
+.email-signup {
+  background: white;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
 }
 
-.email-signup input{
-    flex: 1;
-    border: 0;
-    outline: 0;
-    margin-left: 20px;
+.email-signup input {
+  flex: 1;
+  border: 0;
+  outline: 0;
+  margin-left: 20px;
 }
 
-.email-signup button{
-    background: #db0001;
-    border: 0;
-    outline: 0;
-    color: white;
-    font-size: 16px;
-    cursor: pointer;
-    padding: 15px 30px;
+.email-signup button {
+  background: #db0001;
+  border: 0;
+  outline: 0;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 15px 30px;
 }
 
 /* -------------------- Features -------------------- */
-.feature{
-    padding: 50px 12%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.feature {
+  padding: 50px 12%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-.row{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 50px 0;
+.row {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0;
 }
 
-.text-column{
-    flex-basis: 45%;
-    margin: 0px 10px 20px 10px;
+.text-column {
+  flex-basis: 45%;
+  margin: 0px 10px 20px 10px;
 }
 
-.text-column h2{
-    font-size: 50px;
-    line-height: 60px;
-    font-weight: 900;
+.text-column h2 {
+  font-size: 50px;
+  line-height: 60px;
+  font-weight: 900;
 }
 
-.text-column p{
-    margin: 20px 0;
-    font-size: 25px;
-    font-weight: 400;
+.text-column p {
+  margin: 20px 0;
+  font-size: 25px;
+  font-weight: 400;
 }
 
-
-.image-column{
-    flex-basis: 45%;
-    margin: 0px 10px 20px 10px;
-    height: 100%;
-    width: 45%;
-    overflow: hidden;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.image-column {
+  flex-basis: 45%;
+  margin: 0px 10px 20px 10px;
+  height: 100%;
+  width: 45%;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.video-column{
-    flex-basis: 45%;
-    margin: 0px 10px 20px 10px;
-    height: 100%;
-    width: 45%;
-    overflow: hidden;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-
-.image-column img{
-    width: 100%;
-}
-.row1 .video-column{
-    background-image: url(Resources/Feature-1-Frame.png);
-    background-size: cover;
-}
-.row1 .video-column video{
-    z-index: -1;
+.video-column {
+  flex-basis: 45%;
+  margin: 0px 10px 20px 10px;
+  height: 100%;
+  width: 45%;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.row3 .video-column{
-    background-image: url(Resources/Feature-1-Frame.png);
-    background-size: cover;
+.image-column img {
+  width: 100%;
 }
-.row3 .video-column video{
-    position: relative;
-    z-index: -1;
-    top: -10px;
+.row1 .video-column {
+  background-image: url(Resources/Feature-1-Frame.png);
+  background-size: cover;
+}
+.row1 .video-column video {
+  z-index: -1;
+}
+
+.row3 .video-column {
+  background-image: url(Resources/Feature-1-Frame.png);
+  background-size: cover;
+}
+.row3 .video-column video {
+  position: relative;
+  z-index: -1;
+  top: -10px;
 }
 
 /* -------------------- FAQ -------------------- */
-.faq{
-    padding: 10px 12%;
-    text-align: center;
+.faq {
+  padding: 10px 12%;
+  text-align: center;
 }
 
-.faq h2{
-    margin-top: 70px;
-    font-size: 50px;
-    line-height: 60px;
-    font-weight: 900;
-    min-width: 880px;
+.faq h2 {
+  margin-top: 70px;
+  font-size: 50px;
+  line-height: 60px;
+  font-weight: 900;
+  min-width: 880px;
 }
 
-.question{
-    margin: 60px auto;
-    width: 100%;
-    max-width: 1200px;
+.question {
+  margin: 60px auto;
+  width: 100%;
+  max-width: 1200px;
 }
 
-.question li{
-    list-style: none;
-    width: 100%;
-    padding: 5px;
+.question li {
+  list-style: none;
+  width: 100%;
+  padding: 5px;
 }
 
-.question li label{
-    display: flex;
-    align-items: center;
-    padding: 30px;
-    font-size: 25px;
-    font-weight: 400;
-    background: #303030;
-    margin-bottom: 2px;
-    cursor: pointer;
-    position: relative;
-    transition: 0.2s;
+.question li label {
+  display: flex;
+  align-items: center;
+  padding: 30px;
+  font-size: 25px;
+  font-weight: 400;
+  background: #303030;
+  margin-bottom: 2px;
+  cursor: pointer;
+  position: relative;
+  transition: 0.2s;
 }
 
-.question li label:hover{
-    background: rgb(66, 66, 66);
+.question li label:hover {
+  background: rgb(66, 66, 66);
 }
 
-label::after{
-    content: '+';
-    font-size: 60px;
-    font-weight: 100;
-    position: absolute;
-    right: 20px;
-    transition: transform 0.5s;
+label::after {
+  content: "+";
+  font-size: 60px;
+  font-weight: 100;
+  position: absolute;
+  right: 20px;
+  transition: transform 0.5s;
 }
 
-input[type="radio"]{
-    display: none;
+input[type="radio"] {
+  display: none;
 }
 
-.question .answer{
-    background: #303030;
-    text-align: left;
-    padding: 0 30px;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.5s, padding 0.5s;
+.question .answer {
+  background: #303030;
+  text-align: left;
+  padding: 0 30px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s, padding 0.5s;
 }
 
-.question li .answer p{
-    font-size: 25px;
-    font-weight: 300;
+.question li .answer p {
+  font-size: 25px;
+  font-weight: 300;
 }
 
-.question input[type="radio"]:checked + label +.answer{
-    max-height: 600px;
-    padding: 30px 30px;
+.question input[type="radio"]:checked + label + .answer {
+  max-height: 600px;
+  padding: 30px 30px;
 }
 
-.question input[type="radio"]:checked + label::after{
-    transform: rotate(135deg);
+.question input[type="radio"]:checked + label::after {
+  transform: rotate(135deg);
 }
 
-.faq small{
-    margin: 20px 0;
-    font-size: 18px;
-    font-weight: 400;
+.faq small {
+  margin: 20px 0;
+  font-size: 18px;
+  font-weight: 400;
 }
 
-.faq .email-signup{
-    max-width: 500px;
-    margin: 20px auto 60px;
+.faq .email-signup {
+  max-width: 500px;
+  margin: 20px auto 60px;
 }
 
 /* -------------------- Footer -------------------- */
-.footer{
-    padding: 50px 20% 10px;
-    color: white;
+.footer {
+  padding: 50px 20% 10px;
+  color: white;
 }
 
-.footer h2{
-    font-size: 18px;
-    font-weight: 400;
-    margin-bottom: 30px;
+.footer h2 {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 30px;
 }
-.footer h2 u{
-    cursor: pointer;
-}
-
-.footer .col{
-    flex-basis: 25%;
-    flex-grow: 1;
-    padding: 0 10px;
-    margin-bottom: 20px;
+.footer h2 u {
+  cursor: pointer;
 }
 
-.footer .col a{
-    display: block;
-    color: white;
-    font-size: 14px;
-    margin-bottom: 10px;
+.footer .col {
+  flex-basis: 25%;
+  flex-grow: 1;
+  padding: 0 10px;
+  margin-bottom: 20px;
 }
 
-.footer .row{
-    align-items: flex-start;
-    padding: 10px 0;
+.footer .col a {
+  display: block;
+  color: white;
+  font-size: 14px;
+  margin-bottom: 10px;
 }
 
-.footer h3{
-    display: block;
-    font-size: 16px;
-    font-weight: 400;
-    margin-bottom: 30px;
-    text-align: center;
+.footer .row {
+  align-items: flex-start;
+  padding: 10px 0;
+}
+
+.footer h3 {
+  display: block;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 30px;
+  text-align: center;
 }
 
 /* -------------------- Responsive -------------------- */
 /* Tablet */
-@media (max-width:1000px) {
-    .main-content h1{
-        font-size: 30px;
-        line-height: 30px;
-        min-width: 440px;
-    }
-    .main-content h3{
-        font-size: 20px;
-    }
-    .main-content p{
-        font-size: 15px;
-    }
+@media (max-width: 1000px) {
+  .main-content h1 {
+    font-size: 30px;
+    line-height: 30px;
+    min-width: 440px;
+  }
+  .main-content h3 {
+    font-size: 20px;
+  }
+  .main-content p {
+    font-size: 15px;
+  }
 
+  .row1,
+  .row3 {
+    flex-direction: column;
+    text-align: center;
+  }
+  .row2,
+  .row4 {
+    flex-wrap: wrap-reverse;
+    text-align: center;
+  }
+  .row2 .image-column {
+    flex-basis: 100%;
+  }
+  .row2 .text-column {
+    flex-basis: 100%;
+  }
+  .row4 .image-column {
+    flex-basis: 100%;
+  }
+  .row4 .text-column {
+    flex-basis: 100%;
+  }
+  .text-column h2 {
+    font-size: 32px;
+    line-height: 30px;
+  }
+  .text-column p {
+    font-size: 20px;
+  }
 
-    .row1, .row3{
-        flex-direction: column;
-        text-align: center;
-    }
-    .row2,.row4{
-        flex-wrap: wrap-reverse;
-        text-align: center;
-    }
-    .row2 .image-column{
-        flex-basis: 100%;
-    }
-    .row2 .text-column{
-        flex-basis: 100%;
-    }
-    .row4 .image-column{
-        flex-basis: 100%;
-    }
-    .row4 .text-column{
-        flex-basis: 100%;
-    }
-    .text-column h2{
-        font-size: 32px;
-        line-height: 30px;
-    }
-    .text-column p{
-        font-size: 20px;
-    }
-
-    .faq h2{
-        font-size: 30px;
-        line-height: 30px;
-        min-width: 440px;
-    }
+  .faq h2 {
+    font-size: 30px;
+    line-height: 30px;
+    min-width: 440px;
+  }
 }
 
 /* Mobile */
-@media (max-width:510px) {
-    .main-content h1{
-        min-width: 100px;
-    }
-    .email-signup button{
-        font-size: 12px;
-        padding: 5px 10px;
-    }
+@media (max-width: 510px) {
+  .main-content h1 {
+    min-width: 100px;
+  }
+  .email-signup button {
+    font-size: 12px;
+    padding: 5px 10px;
+  }
 
-    .text-column h2{
-        font-size: 32px;
-        line-height: 30px;
-    }
-    .text-column p{
-        font-size: 20px;
-    }
-    .question li label{
-        font-size: 15px;
-    }
-    .question li .answer p{
-        font-size: 15px;
-    }
-    label::after{
-        font-size: 30px;
-    }
+  .text-column h2 {
+    font-size: 32px;
+    line-height: 30px;
+  }
+  .text-column p {
+    font-size: 20px;
+  }
+  .question li label {
+    font-size: 15px;
+  }
+  .question li .answer p {
+    font-size: 15px;
+  }
+  label::after {
+    font-size: 30px;
+  }
 
-    .faq h2{
-        font-size: 20px;
-        line-height: 20px;
-        min-width: 100px;
-    }
+  .faq h2 {
+    font-size: 20px;
+    line-height: 20px;
+    min-width: 100px;
+  }
 
-    .footer h2{
-        font-size: 14px;
-    }
-    .footer .col a{
-        font-size: 12px;
-    }
+  .footer h2 {
+    font-size: 14px;
+  }
+  .footer .col a {
+    font-size: 12px;
+  }
 }
 
 /* Extra Small Device */
-@media (max-width:410px){
-    nav{
-        flex-direction: column;
-    }
-    .nav-logo{
-        margin: 10px;
-    }
-    .nav-button{
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-    }
-    .nav-button button{
-        margin: 10px;
-    }
+@media (max-width: 410px) {
+  nav {
+    flex-direction: column;
+  }
+  .nav-logo {
+    margin: 10px;
+  }
+  .nav-button {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .nav-button button {
+    margin: 10px;
+  }
 }
